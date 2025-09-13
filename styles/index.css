@@ -4,6 +4,7 @@
 body{
   height: 200vh;
   background-color: rgb(201, 255, 187);
+  margin: 0px;
 }
 
 /* PRIMEIRA ROLAGEM */
@@ -49,6 +50,8 @@ body{
 nav{
   background-color: rgb(16, 168, 84);
   padding: 3px;
+  position: sticky;
+  top: 0;
 }
 
 ul{
@@ -57,9 +60,8 @@ ul{
   justify-content: space-around;
   list-style: none;
 }
-ul:hover{
-  color: lightblue;
-}
+
+
 
 a, li{
   font-family: "Roboto", sans-serif;
@@ -67,11 +69,18 @@ a, li{
   color: aliceblue;
 }
 
+.link:hover{
+  border-bottom: 3px solid rgb(11, 114, 57);
+}
+
 /*  SEGUNDA ROLAGEM */
 
 .rolagem2{
-  height: 100vh;
+  height: 80vh;
   color: rgb(11, 114, 57);
+  position: relative;
+  top: 10px;
+  margin: 10px;
 }
 
 .titulo2{
@@ -93,11 +102,11 @@ a, li{
   height: 50vh;
   font-size: 20px;
   display: flex;
-  background-color: darkgreen;
+  background-color: rgb(11, 114, 57);
   margin-top: 0px;
   margin-right: 2rem;
   border-radius: 10px;
-  color: lightgreen;
+  color: rgb(201, 255, 187);
   text-align: justify;
   text-indent: 1rem;
   align-items: center;
@@ -134,4 +143,9 @@ button{
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
+}
+button:hover{
+  background-color: rgb(16, 168, 84);
+  color: aliceblue;
+  transform: scale(1.1);
 }
