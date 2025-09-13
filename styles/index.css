@@ -76,7 +76,7 @@ a, li{
 /*  SEGUNDA ROLAGEM */
 
 .rolagem2{
-  height: 80vh;
+  height: 100vh;
   color: rgb(11, 114, 57);
   position: relative;
   top: 10px;
@@ -100,7 +100,7 @@ a, li{
 .paragrafo{
   width: 700vw;
   height: 50vh;
-  font-size: 28px;
+  font-size: 21px;
   display: flex;
   background-color: rgb(11, 114, 57);
   margin-top: 0px;
@@ -136,6 +136,7 @@ button{
   border: 5px;
   border-radius: 10px;
   cursor: pointer;
+
 }
 
 .botao{
@@ -150,8 +151,8 @@ button:hover{
   transform: scale(1.1);
 }
 .rodape{
+  margin-top: 2rem;
   background-color: rgb(16, 168, 84);
-  height: 19vh;
   display: flex;
   justify-content: space-around;
   align-items: center;
