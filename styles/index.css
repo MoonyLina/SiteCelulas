@@ -13,7 +13,7 @@ body{
   width: 100%;
   height: 100vh;
   background-image: url(../images/microscopio.jpg);
-  background-size: 100%;
+  background-size: 102%;
   margin: 0;
 }
 
@@ -70,7 +70,7 @@ a, li{
 }
 
 .link:hover{
-  border-bottom: 3px solid rgb(16, 168, 84);
+  border-bottom: 4px solid rgb(16, 168, 84);
 }
 
 /*  SEGUNDA ROLAGEM */
@@ -79,13 +79,13 @@ a, li{
   height: 100vh;
   color: rgb(11, 114, 57);
   position: relative;
-  top: 10px;
-  margin: 10px;
+  top: 3rem;
+  margin: 3rem;
 }
 
 .titulo2{
   font-family: 'Libre Baskerville', Arial;
-  font-size: 40px;
+  font-size: 3rem;
 }
 
 .enterocito{
@@ -95,12 +95,14 @@ a, li{
   display: flex;
   justify-content: center;
   align-items: center;
+  border-style:solid;
+  border-color: rgb(11, 114, 57);
 }
 
 .paragrafo{
   width: 700vw;
   height: 50vh;
-  font-size: 21px;
+  font-size: 24px;
   display: flex;
   background-color: rgb(11, 114, 57);
   margin-top: 0px;

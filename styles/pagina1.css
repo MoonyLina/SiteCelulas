@@ -1,0 +1,55 @@
+body{
+  height: 200vh;
+  background-color: #fccece;
+  margin: 0px;
+}
+
+.rolagem1{
+    height: 100vh;
+
+}
+.fade{
+    height: 100vh;
+    background-image: linear-gradient(to left, rgba(225, 0, 0, 0), #be2e51);
+}
+
+
+/* MENU DE NAVEGAÇÃO */
+
+nav{
+  background-color:#be2e51;
+  padding: 3px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  list-style: none;
+}
+
+
+
+a, li{
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.link:hover{
+  border-bottom: 4px solid #fccece;
+}
+
+
+img{
+    width: 35vw;
+    position: absolute;
+    margin-top: 5rem;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 30px;
+    z-index: 1;
+
+}
