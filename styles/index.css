@@ -48,7 +48,7 @@ body{
 /* MENU DE NAVEGAÇÃO */
 
 nav{
-  background-color: rgb(16, 168, 84);
+  background-color: rgb(11, 114, 57);
   padding: 3px;
   position: sticky;
   top: 0;
@@ -70,7 +70,7 @@ a, li{
 }
 
 .link:hover{
-  border-bottom: 3px solid rgb(11, 114, 57);
+  border-bottom: 3px solid rgb(16, 168, 84);
 }
 
 /*  SEGUNDA ROLAGEM */
@@ -148,4 +148,37 @@ button:hover{
   background-color: rgb(16, 168, 84);
   color: aliceblue;
   transform: scale(1.1);
+}
+.rodape{
+  background-color: rgb(16, 168, 84);
+  height: 19vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+
+  
+}
+.ifsp{
+  margin: 1rem;
+  img{
+    border-radius: 10px;
+  }
+  p{
+    margin: 0rem;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+.email{
+  margin: 1rem;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  h4{
+    margin-top: 0rem;
+  }
+  p{
+    margin-bottom: 0rem;  
+  }
 }
