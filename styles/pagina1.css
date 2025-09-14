@@ -90,6 +90,7 @@ img{
 /*ROLAGEM 2*/
 .rolagem2{
   height: fit-content;
+  width: fit-content;
   div{
     margin: 3rem;
   }
