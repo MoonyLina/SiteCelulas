@@ -23,6 +23,7 @@ main {
   background-image: url(../images/enterocitocelula.png);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: right;
   display: flex;
   justify-content: center;
   flex-direction: column;
