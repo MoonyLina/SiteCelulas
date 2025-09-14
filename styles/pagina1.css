@@ -1,9 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
-  height: 200vh;
+  height:fit-content;
   background-color: #fccece;
   margin: 0px;
+}
+main{
+  height: fit-content;
 }
  /* ROLAGEM 1 */
 .rolagem1{
@@ -83,7 +86,7 @@ img{
 
 /*ROLAGEM 2*/
 .rolagem2{
-  height: 100vh;
+  height: 220vh;
   div{
     margin: 3rem;
   }
@@ -98,13 +101,15 @@ img{
 
 .explc{
   margin: 0rem;
-  background-color: #36025f;
+  background-color: aliceblue;
   border-radius: 1rem;
+  border-style: solid;
+  border-color: #36025f;
     .primeiro{ 
-    padding-top: 0.5rem;
+    padding-top: 0rem;
   }
   .ultimo{
-    padding-bottom: 3rem;
+    padding-bottom: 0rem;
   }
 }
 
@@ -117,7 +122,7 @@ img{
     position: absolute;
     margin-left: 4rem;
     font-size: 1.5rem;
-    color: aliceblue;
+    color: black;
   }
 }
 
@@ -142,6 +147,39 @@ img{
   text-indent: 1rem;
   font-family: 'Libre Baskerville', Arial ;
   text-justify:distribute-all-lines;
-  color: aliceblue;
+  color: black;
 }
 
+.rodape{
+  margin-top: 2rem;
+  background-color: #be2e51;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative; 
+}
+
+.ifsp{
+  margin: 1rem;
+  img{
+    border-radius: 10px;
+    width: 22rem;   
+  }
+  p{
+    margin: 0rem;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+  }
+}
+
+.email{
+  margin: 1rem;
+  color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  h4{
+    margin-top: 0rem;
+  }
+  p{
+    margin-bottom: 0rem;  
+  }
+}
