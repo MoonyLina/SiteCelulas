@@ -192,3 +192,82 @@ img{
     margin-bottom: 0rem;  
   }
 }
+
+@media (max-width: 768px){
+  nav{
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li{
+      padding: 1rem;
+    }
+   
+  }
+
+  @media(max-width: 631px){
+    .titulo2{
+      margin-left: 25%;
+      margin-right: 25%;
+    }
+  }
+  
+  .rolagem2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .explc{
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    div{
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }  
+
+  .num{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
+  }
+  .topico{
+    display: flex;
+    position: static;
+    
+    p{
+      position: static;
+      margin: 1rem;
+      font-size: 1.5rem;
+      display: flex;
+      flex-direction: row;
+    }
+  }
+
+  .paragrafo{
+    text-align: justify;
+    margin-left: 0.5rem;
+    width: fit-content;
+    font-size: 1rem;
+  }
+
+  .rodape{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ifsp{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    img{
+      width: 50%;
+      margin-bottom: 0.5rem;
+    }
+  }
+}
