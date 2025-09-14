@@ -1,36 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-body{
-  height:fit-content;
+body {
+  height: fit-content;
   background-color: #fccece;
   margin: 0px;
 }
-main{
+
+main {
   height: fit-content;
 }
- /* ROLAGEM 1 */
-.rolagem1{
+
+/* ROLAGEM 1 */
+.rolagem1 {
   width: 100%;
   height: 115vh;
   background-image: linear-gradient(to left, rgba(225, 0, 0, 0), #be2e51)
 }
 
-.fade{
-  padding-left: 2rem ;
+.fade {
+  padding-left: 2rem;
   height: 115vh;
   background-image: url(../images/enterocitocelula.png);
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
   justify-content: center;
-  flex-direction: column;  
+  flex-direction: column;
   color: aliceblue;
-  h1{
+
+  h1 {
     margin-bottom: 0;
     font-size: 5rem;
     font-family: 'Libre Baskerville', Arial;
   }
-  p{
+
+  p {
     margin-top: 0.5rem;
     font-size: 1.5rem;
     font-family: "Roboto", sans-serif;
@@ -40,15 +44,15 @@ main{
 
 /* MENU DE NAVEGAÇÃO */
 
-nav{
-  background-color:#be2e51;
+nav {
+  background-color: #be2e51;
   padding: 3px;
   position: sticky;
   top: 0;
   z-index: 2;
 }
 
-ul{
+ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -57,73 +61,68 @@ ul{
 
 
 
-a, li{
+a,
+li {
   font-family: "Roboto", sans-serif;
   text-decoration: none;
   color: aliceblue;
 }
 
-.link:hover{
+.link:hover {
   border-bottom: 4px solid #fccece;
 }
 
-
-.imgcelula{
-  height: fit-content;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  justify-content: flex-end;
+.imagem {
+  display: none;
 }
 
-.titulo{
-
-}
-
-img{
-    width: 35vw;
-    border-bottom-right-radius: 15px;
-    border-top-right-radius: 30px;
-    z-index: 1;
+.celula {
+  width: 20rem;
+  height: 22rem;
 }
 
 /*ROLAGEM 2*/
-.rolagem2{
+.rolagem2 {
   height: fit-content;
   width: fit-content;
-  div{
+
+  div {
     margin: 3rem;
   }
 }
-.titulo2{
+
+.titulo2 {
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 3rem;
   color: #36025f;
-  font-family: 'Libre Baskerville', Arial ;
+  font-family: 'Libre Baskerville', Arial;
 }
 
-.explc{
+.explc {
   margin: 0rem;
   background-color: aliceblue;
   border-radius: 1rem;
   border-style: solid;
   border-color: #36025f;
-  .primeiro{ 
+
+  .primeiro {
     padding-top: 0rem;
   }
-  .ultimo{
+
+  .ultimo {
     padding-bottom: 0rem;
   }
 }
 
-.topico{
+.topico {
   margin: 0rem;
   display: flex;
   align-items: center;
   position: relative;
-  p{
+
+  p {
     position: absolute;
     margin-left: 4rem;
     font-size: 1.5rem;
@@ -131,7 +130,7 @@ img{
   }
 }
 
-.num{
+.num {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -145,104 +144,121 @@ img{
   background-color: aqua;
 }
 
-.paragrafo{
+.paragrafo {
   margin: 0rem;
   margin-left: 3rem;
   margin-bottom: 0rem;
   text-indent: 1rem;
-  font-family: 'Libre Baskerville', Arial ;
-  text-justify:distribute-all-lines;
+  font-family: 'Libre Baskerville', Arial;
+  text-justify: distribute-all-lines;
   color: black;
-  font-family: "Roboto", Arial ;
+  font-family: "Roboto", Arial;
   font-size: 1.2rem;
 }
 
-.rodape{
+.rodape {
   margin-top: 2rem;
   background-color: #be2e51;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: relative; 
+  position: relative;
 }
 
-.ifsp{
+.ifsp {
   margin: 1rem;
-  
-  img{
+
+  img {
     border-radius: 10px;
     width: 22rem;
     border-style: solid;
-    border-color: #a32847;   
+    border-color: #a32847;
   }
-  p{
+
+  p {
     margin: 0rem;
     color: aliceblue;
     font-family: "Roboto", sans-serif;
   }
 }
 
-.email{
+.email {
   margin: 1rem;
   color: aliceblue;
   font-family: "Roboto", sans-serif;
-  h4{
+
+  h4 {
     margin-top: 0rem;
   }
-  p{
-    margin-bottom: 0rem;  
+
+  p {
+    margin-bottom: 0rem;
   }
 }
 
-@media (max-width: 768px){
-  nav{
+@media (max-width: 768px) {
+  nav {
     height: 10vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    ul{
+
+    ul {
       padding-left: 0rem;
     }
-    li{
+
+    li {
       padding: 1rem;
     }
-   
+
   }
 
-  @media(max-width: 631px){
-    .titulo2{
+  @media(max-width: 631px) {
+    .titulo2 {
       margin-left: 25%;
       margin-right: 25%;
     }
   }
-  
-  .rolagem2{
+
+  .rolagem1 {
+    height: auto;
+  }
+
+  .rolagem2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: auto;
+    height: auto;
+
+    div {
+      margin: 1rem;
+    }
   }
 
-  .explc{
+  .explc {
     display: flex;
     flex-direction: column;
-    width:fit-content;
-    div{
+    width: fit-content;
+
+    div {
       margin-top: 1rem;
       margin-bottom: 1rem;
     }
-  }  
+  }
 
-  .num{
+  .num {
     width: 2rem;
     height: 2rem;
     font-size: 1.5rem;
   }
-  .topico{
+
+  .topico {
     display: flex;
     position: static;
-    
-    p{
+
+    p {
       position: static;
       margin: 1rem;
       font-size: 1.5rem;
@@ -251,27 +267,50 @@ img{
     }
   }
 
-  .paragrafo{
+  .paragrafo {
     text-align: justify;
     margin-left: 0.5rem;
     width: fit-content;
     font-size: 1rem;
   }
 
-  .rodape{
+  .rodape {
     flex-direction: column;
     align-items: center;
   }
 
-  .ifsp{
+  .ifsp {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
-    img{
+
+    img {
       width: 50%;
       margin-bottom: 0.5rem;
     }
   }
+
+  .imagem {
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+  }
+
+  .fade {
+    background-image: none;
+    height: auto;
+    padding: 0rem;
+    align-items: center;
+
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+  }
+
 }
