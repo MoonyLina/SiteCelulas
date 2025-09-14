@@ -17,9 +17,10 @@ main{
 
 .fade{
   padding-left: 2rem ;
-  height: 100vh;
+  height: 115vh;
   background-image: url(../images/enterocitocelula.png);
   background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
   flex-direction: column;  
@@ -99,6 +100,7 @@ img{
   align-items: center;
   font-size: 3rem;
   color: #36025f;
+  font-family: 'Libre Baskerville', Arial ;
 }
 
 .explc{
@@ -150,6 +152,8 @@ img{
   font-family: 'Libre Baskerville', Arial ;
   text-justify:distribute-all-lines;
   color: black;
+  font-family: "Roboto", Arial ;
+  font-size: 1.2rem;
 }
 
 .rodape{
@@ -163,9 +167,12 @@ img{
 
 .ifsp{
   margin: 1rem;
+  
   img{
     border-radius: 10px;
-    width: 22rem;   
+    width: 22rem;
+    border-style: solid;
+    border-color: #a32847;   
   }
   p{
     margin: 0rem;
