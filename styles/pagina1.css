@@ -298,6 +298,10 @@ li {
     margin: 1rem;
   }
 
+  .celula{
+    height: 27rem;
+  }
+
   .fade {
     background-image: none;
     height: auto;
