@@ -300,6 +300,8 @@ li {
 
   .celula{
     height: 27rem;
+    border-top-right-radius: 0.9rem;
+    border-bottom-right-radius: 0.8rem ;
   }
 
   .fade {
