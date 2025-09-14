@@ -19,6 +19,8 @@ main{
   background-image: url(../images/microscopio.jpg);
   background-size: 102%;
   margin: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .fade{

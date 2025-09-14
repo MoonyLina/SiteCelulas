@@ -10,13 +10,30 @@ main{
 }
  /* ROLAGEM 1 */
 .rolagem1{
-    height: fit-content;
-
+  width: 100%;
+  height: fit-content;
+  background-image: linear-gradient(to left, rgba(225, 0, 0, 0), #be2e51)
 }
+
 .fade{
-    height: fit-content;
-    background-image: linear-gradient(to left, rgba(225, 0, 0, 0), #be2e51);
-    position: relative;
+  padding-left: 2rem ;
+  height: 100vh;
+  background-image: url(../images/enterocitocelula.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;  
+  color: aliceblue;
+  h1{
+    margin-bottom: 0;
+    font-size: 5rem;
+    font-family: 'Libre Baskerville', Arial;
+  }
+  p{
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+  }
 }
 
 
@@ -49,6 +66,7 @@ a, li{
   border-bottom: 4px solid #fccece;
 }
 
+
 .imgcelula{
   height: fit-content;
   display: flex;
@@ -58,22 +76,6 @@ a, li{
 }
 
 .titulo{
-  position: absolute;
-  margin-top: 18rem;
-  margin-left: 2rem;
-  display: flex;
-  flex-direction: column;  
-  color: aliceblue;
-  h1{
-    margin-bottom: 0;
-    font-size: 5rem;
-    font-family: 'Libre Baskerville', Arial;
-  }
-  p{
-    margin-top: 0.5rem;
-    font-size: 1.5rem;
-    font-family: "Roboto", sans-serif;
-  }
 
 }
 
@@ -105,7 +107,7 @@ img{
   border-radius: 1rem;
   border-style: solid;
   border-color: #36025f;
-    .primeiro{ 
+  .primeiro{ 
     padding-top: 0rem;
   }
   .ultimo{
@@ -133,7 +135,7 @@ img{
   margin: 0rem;
   margin-bottom: 0rem;
   width: 3rem;
-  height: fit-content;
+  height: 2.8rem;
   border-radius: 50%;
   border-style: solid;
   border-color: rgb(1, 232, 232);
