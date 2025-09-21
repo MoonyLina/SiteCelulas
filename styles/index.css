@@ -97,8 +97,8 @@ li {
 }
 
 .enterocito {
-  width: 22rem;
-  height: 22rem;
+  width:30%;
+  height: 50%;
   border-radius: 10px;
   display: flex;
   justify-content: center;
@@ -138,6 +138,8 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
+
 }
 
 button {
@@ -209,14 +211,14 @@ button:hover {
   }
 }
 
-@media (max-width:480px) {
+@media (max-width:600px) {
   nav{
-    height: 10vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    height: fit-content;
     ul{
       padding-left: 0rem;
+      flex-direction: column;
+      align-items: center;
+      font-size: 1rem;
     }
     li{
       padding: 1rem;
@@ -229,6 +231,10 @@ button:hover {
   }
 
   .container-flex2 {
+    .enterocito{
+      width: 90%;
+      height: 100%;
+    }
     flex-direction: column;
     align-items: center;
     gap: 20px;
