@@ -1,0 +1,39 @@
+h1{
+    font-family: 'Libre Baskerville', Arial;
+    color: aliceblue;
+}
+
+p{
+    font-family: 'Roboto', Arial;
+    color: aliceblue;
+}
+
+li, a{
+    font-family: 'Roboto', Arial;
+    color: aliceblue;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;
+}
+
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+ul{
+    padding: 0;
+}
+li{
+    margin: 1rem;
+}
+
+
+body{
+    background-color: rgb(16, 168, 84)
+}
