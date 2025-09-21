@@ -1,16 +1,17 @@
 h1{
     font-family: 'Libre Baskerville', Arial;
-    color: aliceblue;
+    color: rgb(37, 0, 0);
+    text-align: center;
 }
 
 p{
     font-family: 'Roboto', Arial;
-    color: aliceblue;
+    color: rgb(37, 0, 0);
 }
 
 li, a{
     font-family: 'Roboto', Arial;
-    color: aliceblue;
+    color: rgb(37, 0, 0);
     text-decoration: none;
     list-style: none;
     text-align: center;
@@ -18,12 +19,18 @@ li, a{
 
 
 main{
+    background-color: antiquewhite;
+    padding: 5rem;
+    border-radius: 2rem;
+    border: solid rgb(167, 45, 45);
+}
+
+.caixa{
     height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
 
 ul{
@@ -33,7 +40,12 @@ li{
     margin: 1rem;
 }
 
+a:hover {
+  border-bottom: 4px solid rgb(167, 45, 45);
+}
 
 body{
-    background-color: rgb(16, 168, 84)
+    margin: 0;
+    background-image: url(../images/imagemidioma.jpeg);
+    background-size: cover;
 }
