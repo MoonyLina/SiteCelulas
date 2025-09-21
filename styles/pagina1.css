@@ -60,6 +60,7 @@ ul {
   flex-direction: row;
   justify-content: space-around;
   list-style: none;
+  padding-left: 0rem;
 }
 
 
@@ -236,7 +237,7 @@ li {
       text-align: center;
       background-image: none;
       h1{
-        font-size: 4rem;
+        font-size: 3rem;
       }
       p{
         font-size: 1.5rem;
@@ -247,7 +248,7 @@ li {
     width: 100%;
     .titulo2{
       margin: 0rem;
-      font-size: 1.8rem;
+      font-size: 1.5rem;
     }
 
   }
@@ -298,12 +299,12 @@ li {
   }
 
   .rodape {
-    width: fit-content;
+    width: 100%;
     height:fit-content ;
     flex-direction: column;
     align-items: center;
     a{
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 
@@ -312,7 +313,7 @@ li {
     justify-content: center;
     margin: 1rem;
     .celula{
-      height: 80vh;
+      height: fit-content;
       width: 100%;
       border-top-right-radius: 0.9rem;
       border-bottom-right-radius: 0.8rem ;
@@ -337,7 +338,7 @@ li {
     }
   }
   .email{
-    font-size: 1.5rem;
+    font-size: 1rem;
     margin: 1rem;
   }
   html{
