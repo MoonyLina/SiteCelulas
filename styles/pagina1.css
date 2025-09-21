@@ -161,6 +161,10 @@ li {
   justify-content: space-around;
   align-items: center;
   position: relative;
+  a{
+    margin: 1rem;
+    font-weight: 700;
+  }
 }
 
 .ifsp {
@@ -207,6 +211,7 @@ li {
 
     li {
       padding: 1rem;
+      font-size: 1.5rem;
     }
 
   }
@@ -219,10 +224,25 @@ li {
   }
 
   .rolagem1 {
-    height: auto;
+    height: 35vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .fade{
+      h1{
+        font-size: 4rem;
+      }
+      p{
+        font-size: 1.5rem;
+      }
+    }
   }
-
   .rolagem2 {
+    .titulo2{
+      margin: 0rem;
+      margin-bottom: 0rem;
+      font-size: 2.8rem;
+    }
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -236,13 +256,19 @@ li {
     display: flex;
     flex-direction: column;
     width: fit-content;
+    margin: 1rem;
+    .primeiro{
+      .topico{
+        margin-top: 1rem;
+    }
+    }
 
   }
 
   .num {
-    width: 2rem;
-    height: 2rem;
-    font-size: 1.5rem;
+    width: 3rem;
+    height: 3rem;
+    font-size: 2rem;
   }
 
   .topico {
@@ -252,7 +278,7 @@ li {
     p {
       position: static;
       margin: 1rem;
-      font-size: 1.5rem;
+      font-size: 2.5rem;
       display: flex;
       flex-direction: row;
     }
@@ -262,24 +288,15 @@ li {
     text-align: justify;
     width: fit-content;
     margin: 1.5rem;
-    font-size: 1rem;
+    font-size: 2rem;
   }
 
   .rodape {
+    height:fit-content ;
     flex-direction: column;
     align-items: center;
-  }
-
-  .ifsp {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-
-    img {
-      width: 50%;
-      margin-bottom: 0.5rem;
+    a{
+      font-size: 1.5rem;
     }
   }
 
@@ -287,6 +304,10 @@ li {
     display: flex;
     justify-content: center;
     margin: 1rem;
+    .celula{
+      height: 80vh;
+      width: 100vw;
+    }
   }
 
   .celula{
@@ -309,5 +330,22 @@ li {
       font-size: 1rem;
     }
   }
+  .ifsp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
 
+    img {
+      width: 60%;
+      margin-bottom: 0.5rem;
+    }
+    p{
+      font-size: 1.5rem;
+    }
+  }
+  .email{
+    font-size: 1.5rem;
+  }
 }
