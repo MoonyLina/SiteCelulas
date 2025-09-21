@@ -211,24 +211,24 @@ li {
 
     li {
       padding: 1rem;
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 
-  }
-
-  @media(max-width: 631px) {
-    .titulo2 {
-      margin-left: 25%;
-      margin-right: 25%;
-    }
   }
 
   .rolagem1 {
-    height: 35vh;
+    height: 50vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
     .fade{
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      background-image: none;
       h1{
         font-size: 4rem;
       }
@@ -238,24 +238,17 @@ li {
     }
   }
   .rolagem2 {
+    width: 100vw;
     .titulo2{
       margin: 0rem;
-      margin-bottom: 0rem;
-      font-size: 2.8rem;
+      font-size: 1.8rem;
     }
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: auto;
 
   }
 
   .explc {
     display: flex;
     flex-direction: column;
-    width: fit-content;
     margin: 1rem;
     .primeiro{
       .topico{
@@ -305,31 +298,13 @@ li {
     justify-content: center;
     margin: 1rem;
     .celula{
-      height: 80vh;
-      width: 100vw;
+      height: 90vh;
+      width: 90vw;
+      border-top-right-radius: 0.9rem;
+      border-bottom-right-radius: 0.8rem ;
     }
   }
 
-  .celula{
-    height: 27rem;
-    border-top-right-radius: 0.9rem;
-    border-bottom-right-radius: 0.8rem ;
-  }
-
-  .fade {
-    background-image: none;
-    height: auto;
-    padding: 0rem;
-    align-items: center;
-
-    h1 {
-      font-size: 3rem;
-    }
-
-    p {
-      font-size: 1rem;
-    }
-  }
   .ifsp {
     display: flex;
     flex-direction: column;
