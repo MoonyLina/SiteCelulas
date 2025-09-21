@@ -86,10 +86,6 @@ li {
 .rolagem2 {
   height: fit-content;
   width: fit-content;
-
-  div {
-    margin: 3rem;
-  }
 }
 
 .titulo2 {
@@ -102,7 +98,7 @@ li {
 }
 
 .explc {
-  margin: 0rem;
+  margin: 2rem;
   background-color: aliceblue;
   border-radius: 1rem;
   border-style: solid;
@@ -118,7 +114,8 @@ li {
 }
 
 .topico {
-  margin: 0rem;
+  margin: 3rem;
+  margin-bottom: 1rem;
   display: flex;
   align-items: center;
   position: relative;
@@ -146,9 +143,8 @@ li {
 }
 
 .paragrafo {
-  margin: 0rem;
-  margin-left: 3rem;
-  margin-bottom: 0rem;
+  margin: 3rem;
+  margin-top: 0rem;
   text-indent: 1rem;
   font-family: 'Libre Baskerville', Arial;
   text-justify: distribute-all-lines;
