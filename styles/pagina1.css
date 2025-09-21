@@ -2,11 +2,13 @@
 
 body {
   height: fit-content;
+  width: fit-content;
   background-color: #fccece;
   margin: 0px;
 }
 
 main {
+  width: fit-content;
   height: fit-content;
 }
 
@@ -201,6 +203,7 @@ li {
 @media (max-width: 768px) {
   nav {
     height: 10vh;
+    width: 100%;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -211,14 +214,13 @@ li {
 
     li {
       padding: 1rem;
-      font-size: 1.2rem;
     }
 
   }
 
   .rolagem1 {
     height: 50vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -238,7 +240,7 @@ li {
     }
   }
   .rolagem2 {
-    width: 100vw;
+    width: 100%;
     .titulo2{
       margin: 0rem;
       font-size: 1.8rem;
@@ -247,6 +249,7 @@ li {
   }
 
   .explc {
+    
     display: flex;
     flex-direction: column;
     margin: 1rem;
@@ -267,11 +270,12 @@ li {
   .topico {
     display: flex;
     position: static;
+    margin: 2rem;
 
     p {
       position: static;
       margin: 1rem;
-      font-size: 2.5rem;
+      font-size: 2rem;
       display: flex;
       flex-direction: row;
     }
@@ -281,10 +285,11 @@ li {
     text-align: justify;
     width: fit-content;
     margin: 1.5rem;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .rodape {
+    width: 100%;
     height:fit-content ;
     flex-direction: column;
     align-items: center;
@@ -298,8 +303,8 @@ li {
     justify-content: center;
     margin: 1rem;
     .celula{
-      height: 90vh;
-      width: 90vw;
+      height: 80vh;
+      width: 100%;
       border-top-right-radius: 0.9rem;
       border-bottom-right-radius: 0.8rem ;
     }
@@ -322,5 +327,6 @@ li {
   }
   .email{
     font-size: 1.5rem;
+    margin: 1rem;
   }
 }

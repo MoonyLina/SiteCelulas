@@ -108,7 +108,7 @@ li {
   height: fit-content;
   color: rgb(11, 114, 57);
   position: relative;
-  top: 0rem;
+  top: 3rem;
   margin: 3rem;
 }
 
@@ -179,6 +179,7 @@ button {
   align-items: center;
   z-index: 1;
   margin-top: 2rem;
+  margin-bottom: 5rem;
 }
 
 button:hover {
@@ -189,16 +190,14 @@ button:hover {
 
 .rodape {
   z-index: 0;
-  margin-top: 0rem;
+  margin-top: 2rem;
   background-color: rgb(16, 168, 84);
   display: flex;
   justify-content: space-around;
   align-items: center;
   position: relative;
-  a{
-    margin: 1rem;
-    font-weight: 700;
-  }
+
+
 }
 
 .ifsp {
@@ -254,36 +253,25 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 20px;
-    .enterocito{
-      width: 100%;
-      height: 100%;
-    }
   }
-  .botao{
-    button{
-      font-size: 2.3rem;
-    }
-  }
+
   .paragrafo {
     width: fit-content;
     margin-right: 0;
   }
 
   .textop {
-    font-size: 1.5rem;
-    margin: 1.5rem;
+    font-size: 1.25rem;
+    margin: 1rem;
   }
 
   .titulo2 {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .rodape {
     flex-direction: column;
     align-items: flex-start;
-    a{
-      font-size: 1rem;
-    }
   }
 
   .ifsp {
@@ -302,7 +290,6 @@ button:hover {
 
   .rolagem2 {
     margin: 1rem;
-    
   }
 
 
@@ -314,14 +301,8 @@ button:hover {
     font-size: 1rem;
   }
     .rodape{
-      height: fit-content;
-      flex-direction: column;
-      align-items: center;
-      a{
-        margin: 1rem;
-        font-weight: 700;
-        font-size: 1.5rem;
-      }
+    flex-direction: column;
+    align-items: center;
   }
 
   .ifsp{
@@ -331,14 +312,8 @@ button:hover {
     justify-content: center;
     width: 100%;
     img{
-      width: 60%;
+      width: 50%;
       margin-bottom: 0.5rem;
     }
-    p{
-      font-size: 1.5rem;
-    }
-  }
-  .email{
-    font-size: 1.5rem;
   }
 }
