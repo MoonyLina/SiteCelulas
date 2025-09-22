@@ -161,6 +161,9 @@ li {
   justify-content: space-around;
   align-items: center;
   position: relative;
+  a{
+    font-weight: 600;
+  }
 }
 
 .ifsp {
@@ -284,6 +287,9 @@ li {
   .rodape {
     flex-direction: column;
     align-items: center;
+    a{
+      margin: 1rem;
+    }
   }
 
   .ifsp {

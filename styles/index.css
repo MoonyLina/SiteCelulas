@@ -261,6 +261,9 @@ button:hover {
   .rodape {
     flex-direction: column;
     align-items: flex-start;
+    a{
+      margin: 1rem;
+    }
   }
 
   .ifsp {
