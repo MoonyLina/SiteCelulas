@@ -321,7 +321,6 @@ li {
   }
 
   .ifsp {
-    width: 90%;
     margin-right: 0rem;
     display: flex;
     flex-direction: column;
@@ -340,8 +339,5 @@ li {
   .email{
     font-size: 1rem;
     margin: 1rem;
-  }
-  html{
-    width: 100% !important;
   }
 }
